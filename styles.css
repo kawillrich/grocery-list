@@ -45,7 +45,11 @@ li {
   width: 100%;
 
   display: flex;
-  border: 4px #aaaaaa ridge;
+  border-top-color: #1232e6;
+  border-bottom-color: #1232e6;
+  border-right-color: #1232e6;
+  border-left-color: #1232e6;
+  border-top-width: 4px;
   background: #dedede;
 }
 
@@ -64,7 +68,7 @@ li {
   font-size: 40pt;
   border-radius: 30px;
   border-color: #1232e6;
-  color: white;
+  color: #1232e6;
 }
 
 #article-two {
