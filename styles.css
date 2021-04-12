@@ -7,15 +7,10 @@ body {
 header {
   font-size: 44px;
   width: 100%;
-  background: #bbbbbb;
+  background: #1232e6;
   color: white;
-  text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 2px 0 #bbb, 0 3px 0 #b9b9b9,
-    0 3px 0 #aaa, 0 4px 1px rgba(0, 0, 0, 0.1), 0 0 2px rgba(0, 0, 0, 0.1),
-    0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2),
-    0 3px 3px rgba(0, 0, 0, 0.25), 0 3px 3px rgba(0, 0, 0, 0.2),
-    0 7px 7px rgba(0, 0, 0, 0.15);
   text-align: center;
-  border: 4px #aaaaaa ridge;
+
   margin: 0px;
 }
 
@@ -38,8 +33,11 @@ li {
 .input-bar {
   width: 99%;
   margin: 0px 0px 20px 0px;
-  border: 4px #aaaaaa ridge;
-  background: #dedede;
+  /* border-top: 4px;
+  border-top-color: #1232e6;
+  border-bottom: 4px;
+  border-bottom-color: #1232e6; */
+
   padding: 10px 0px 10px 10px;
 }
 
@@ -55,18 +53,18 @@ li {
   width: 300px;
   font-family: Calibri, Arial, sans-serif;
   font-size: 40pt;
-  background-color: lightskyblue;
+  background-color: #99c9f5;
   border-radius: 30px;
-  border-color: lightskyblue;
-  color: darkslategray;
+  border-color: #1232e6;
+  color: white;
 }
 
 #new-item-text {
   font-family: Calibri, Arial, sans-serif;
   font-size: 40pt;
   border-radius: 30px;
-  border-color: lightskyblue;
-  color: darkslategray;
+  border-color: #1232e6;
+  color: white;
 }
 
 #article-two {
