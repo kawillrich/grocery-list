@@ -1,10 +1,12 @@
 body {
+  width: 800px;
+  min-width: 640px;
   font-family: Calibri, Arial, sans-serif;
 }
 
 header {
   font-size: 20px;
-  width: 368px;
+  width: 658px;
   background: #bbbbbb;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 2px 0 #bbb, 0 3px 0 #b9b9b9,
@@ -26,15 +28,17 @@ li {
 }
 
 .input-bar {
-  width: 358px;
+  width: 648px;
   margin: 0px 0px 20px 0px;
   border: 4px #aaaaaa ridge;
   background: #dedede;
   padding: 10px 0px 10px 10px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .shopping-list {
-  width: 368px;
+  width: 658px;
   height: 480px;
   display: flex;
   border: 4px #aaaaaa ridge;
