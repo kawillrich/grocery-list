@@ -9,7 +9,7 @@ $('#add-item').on('click', function() {
 $('#grocery-list').on('click', '.supply', function() {
     $(this).animate({
         opacity: 0.0,
-    }, 500, function() {
+    }, 250, function() {
         $(this).remove();
     })
     
