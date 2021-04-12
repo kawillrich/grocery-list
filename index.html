@@ -7,14 +7,18 @@
 <body>
   <header><h1>Groceries</h1></header><br>
   <main>
-    <input type="submit" id="add-item">  
-    <input type="text" name="new-item" placeholder="New Item" id='new-item-text' maxlength="20">
-    <ul id='grocery-list'>Groceries  
-      <li class="supply">Milk</li>
-      <li class="supply">Eggs</li>
-      <li class="supply">Paper Towels</li>
-      <li class="supply">Napkins</li>
-    </ul>
+    <article id='article-one' class='input-bar'>
+      <input type="submit" id="add-item">  
+      <input type="text" name="new-item" placeholder="New Item" id='new-item-text' maxlength="20">
+    </article>
+    <article id='article-two' class='shopping-list'>
+      <ul id='grocery-list'>Groceries  
+        <li class="supply">Milk</li>
+        <li class="supply">Eggs</li>
+        <li class="supply">Paper Towels</li>
+       <li class="supply">Napkins</li>
+      </ul>
+    </article>
   </main>
 
 <script src="jquery-3.6.0.js"></script>

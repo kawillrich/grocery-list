@@ -20,3 +20,19 @@ header {
 h1 {
   margin: 0px;
 }
+
+.input-bar {
+  width: 358px;
+  margin: 0px 0px 20px 0px;
+  border: 4px #aaaaaa ridge;
+  background: #dedede;
+  padding: 10px 0px 10px 10px;
+}
+
+.shopping-list {
+  width: 368px;
+  height: 480px;
+  display: flex;
+  border: 4px #aaaaaa ridge;
+  background: #dedede;
+}
