@@ -53,4 +53,11 @@ li {
 #add-item {
   font-family: Calibri, Arial, sans-serif;
   font-size: 40pt;
+  background-color: lightskyblue;
+  border-radius: 30px;
+  border-color: lightskyblue;
+}
+
+#new-item-text {
+  font-size: 40pt;
 }
