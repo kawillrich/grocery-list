@@ -38,8 +38,6 @@ li {
   border: 4px #aaaaaa ridge;
   background: #dedede;
   padding: 10px 0px 10px 10px;
-  text-align: center;
-  font-size: 16px;
 }
 
 .shopping-list {
@@ -56,8 +54,13 @@ li {
   background-color: lightskyblue;
   border-radius: 30px;
   border-color: lightskyblue;
+  color: darkslategray;
 }
 
 #new-item-text {
+  font-family: Calibri, Arial, sans-serif;
   font-size: 40pt;
+  border-radius: 30px;
+  border-color: lightskyblue;
+  color: darkslategray;
 }
