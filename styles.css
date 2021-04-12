@@ -59,6 +59,18 @@ li {
   color: #88aa99;
 }
 
+.leaf-stripe {
+  background: #dbf1d7;
+  height: 15px;
+  width: 99%;
+}
+
+.rose-stripe {
+  background: #eccde3;
+  height: 30px;
+  width: 99%;
+}
+
 #add-item {
   width: 300px;
   font-family: Calibri, Arial, sans-serif;
