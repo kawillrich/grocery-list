@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  font-size: 36px;
+  font-size: 44px;
   width: 100%;
   background: #bbbbbb;
   color: white;
@@ -48,4 +48,9 @@ li {
   display: flex;
   border: 4px #aaaaaa ridge;
   background: #dedede;
+}
+
+#add-item {
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 40pt;
 }
