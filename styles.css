@@ -25,11 +25,14 @@ h1 {
 
 ol {
   font-size: 28px;
+  text-align: center;
 }
 
 li {
+  text-align: left;
+  font-family: Calibri, Arial, sans-serif;
   padding: 5px 0px 5px 0px;
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .input-bar {
@@ -42,13 +45,14 @@ li {
 
 .shopping-list {
   width: 100%;
-  height: 480px;
+
   display: flex;
   border: 4px #aaaaaa ridge;
   background: #dedede;
 }
 
 #add-item {
+  width: 300px;
   font-family: Calibri, Arial, sans-serif;
   font-size: 40pt;
   background-color: lightskyblue;
@@ -63,4 +67,8 @@ li {
   border-radius: 30px;
   border-color: lightskyblue;
   color: darkslategray;
+}
+
+#article-two {
+  padding: 5px 0px 5px 20px;
 }
